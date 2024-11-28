@@ -33,7 +33,7 @@ where
             is_last_row: F::from_bool(i == height - 1),
             is_transition: F::from_bool(i != height - 1),
         };
-
+        
         air.eval(&mut builder);
     });
 }
